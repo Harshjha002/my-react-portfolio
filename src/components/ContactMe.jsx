@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
+import my_resume from  '../utils/Harshjha.pdf'
 
 const ContactMe = () => {
   return (
@@ -30,8 +31,8 @@ const ContactMe = () => {
           </a>
         </div>
         <a 
-          href="/path-to-resume.pdf" 
-          download 
+          href={my_resume}
+          download="HarshJha_Resume.pdf" 
           className="inline-flex items-center bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 transition duration-300 mb-6"
         >
           <HiDownload className="mr-2" />
