@@ -10,6 +10,16 @@ const myProjects = [
         liveLink: "/",
         gitLink: "https://github.com/Harshjha002/Food-App"
     },
+    {
+        id: 1,
+        imgId: foodAppImg,
+        title: "My-Figma",
+        smallDesc: "A online disigning app",
+        largeDesc: "This repository showcases a comprehensive collection of meticulously crafted UI/UX designs created using Figma, featuring responsive layouts, reusable components, interactive prototypes, modular design systems, and carefully selected typography and color schemes, all aimed at delivering modern, user-friendly web and mobile interfaces, with a focus on adaptability, scalability, and seamless user experiences, making it an ideal resource for developers, designers, and stakeholders looking to explore, collaborate on, or implement cutting-edge design solutions in real-world applications.",
+        techStack: ["React", "Nextjs","TypeScript", "Tailwindcss","Liveblock"],
+        liveLink: "/",
+        gitLink: "https://github.com/Harshjha002/my-figma"
+    },
 ]
 
 export default myProjects
